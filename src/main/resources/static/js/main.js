@@ -1,12 +1,3 @@
-// -----> CAMBIO DE RANGO
-// document.getElementById('range').addEventListener('mousemove', ()=> {
-//     document.getElementById('rangeLabel').innerHTML = document.getElementById('range').value;
-// })
-
-// -----> COMPROBACIÓN CHECK
-// function isChecked(e){
-//     console.log(e.parentElement.parentElement.previousElementSibling.innerHTML+": "+e.checked);
-// }
 
 // Take all HTML elements to calculate final price
 let $rangeCupoSocios = document.getElementById('range');
@@ -20,7 +11,7 @@ let $precioFinal = document.getElementById('finalPrice');
 //add an EventListener to everyone of the elements but $precioFinal
 $rangeCupoSocios.addEventListener('mousemove', calcularPrecio);
 $cWhatsapp.addEventListener('change', calcularPrecio);
-$cSocios.addEventListener('change', calcularPrecio)
+$cSocios.addEventListener('change', calcularPrecio);
 $cDuenios.addEventListener('change', calcularPrecio);
 $cCompuExtra.addEventListener('change', calcularPrecio);
 
